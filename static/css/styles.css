@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.card {
+  width: 23%;
+  height: auto;
+  background-color: green;
+  border-radius: 10px;
+  margin: 50px auto;
+}
+
+.card h1 {
+  color: gold;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; 
+}
+
+li {
+    font-size: 18px;
+    padding: 10px;
+    color: aliceblue;
+}
+
+li a {
+    text-decoration: none; 
+    color: inherit; 
+    font-weight: normal; 
+}
