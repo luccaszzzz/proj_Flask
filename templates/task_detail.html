@@ -5,12 +5,14 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>{{ tarefa.nome }}</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href="{{ url_for('static', filename='css/styles.css') }}">
     <script src='main.js'></script>
 </head>
 <body>
-    <h1>{{ tarefa.nome }}</h1>
-    <p>{{ tarefa.descricao }}</p>
-    <a href="/">Voltar à lista de tarefas</a>
+    <div class="card">
+        <h1>{{ tarefa.nome }}</h1>
+        <p>{{ tarefa.descricao }}</p>
+        <a href="/" class="voltar">Voltar à lista de tarefas</a>
+    </div>
 </body>
 </html>
